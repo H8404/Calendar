@@ -1,0 +1,153 @@
+.popUpDiv{
+    display: none;
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -153px 0 0 -250px;
+    width: 500px;
+    height:300px;
+    border: 6px solid #99ff99;
+	border-top:0;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+	font-family: 'Poiret One', cursive;
+}
+
+.blanket{
+	position:fixed; 
+	top:0; 
+	left:0;
+	background:rgba(0,0,0,0.6);
+	z-index:5;
+	width:100%;
+	height:100%;
+	display:none; 
+}
+
+.close{
+	text-decoration:none;
+	color:#000000;
+	font-size:20px;
+	font-weight:600;
+	margin-right:4px;
+}
+
+.close:hover, .close:active{
+	text-shadow: 1px 1px 2px #8c8c8c;
+}
+
+.closeDiv{
+	height:25px;
+	background:#99ff99;
+	text-align:right;
+	padding-top:4px;
+	width: 500px;
+	position:fixed;
+}
+
+.text{
+	margin-top:25px;
+	float:left;
+	width:150px;
+	text-align:center;
+	font-weight:600;
+	font-size:18px;
+}
+
+.text p{
+	margin:0;
+	padding:0;
+	margin-top:20px;
+}
+
+.textfield{
+	margin-top:25px;
+	float:right;
+	width:350px;
+}
+
+
+@-moz-document url-prefix() {
+	.textfield textarea{
+		width:303px;
+		height:96px;
+	}
+}
+
+.textfield input{
+	margin-top:18px;
+	height:20px;
+	width:300px;
+}
+.textfield .note{
+	margin-top:20px;
+}
+
+#save{
+	width:100%;
+	clear:both;
+}
+
+#save input{
+	margin-top:20px;
+	margin-bottom:10px;
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+	font-weight:600;
+	background:#99ff99;
+	border: #8c8c8c;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#save input:hover, #save input:active{
+	box-shadow: 2px 2px 4px #8c8c8c;
+}
+
+.editEvent{
+	margin:10px;
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+	font-weight:600;
+	background:#99ff99;
+	border: #8c8c8c;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.editEvent:hover, .editEvent:active{
+	box-shadow: 2px 2px 4px #8c8c8c;
+}
+
+.deleteEvent{
+	margin:10px;
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+	font-weight:600;
+	background:#99ff99;
+	border: #8c8c8c;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.deleteEvent:hover, .deleteEvent:active{
+	box-shadow: 2px 2px 4px #8c8c8c;
+}
+
+.sTitle{
+	font-size:20px;
+}
+
+.sNote{
+	font-weight:600;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+#events{
+	margin:auto;
+	width:470px;
+	margin-top:30px;
+	word-wrap: break-word;
+}

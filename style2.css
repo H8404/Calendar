@@ -1,0 +1,93 @@
+body{
+	background:#99ff99;
+}
+#main{
+	margin: 0 auto;
+}
+
+#login{
+	font-family: 'Open Sans', sans-serif;
+	padding:30px;
+	background:#FFFFFF;
+	border: 3px solid #8c8c8c;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#signup{
+	font-family: 'Open Sans', sans-serif;
+	padding:20px;
+	background:#FFFFFF;
+	border: 3px solid #8c8c8c;
+	position: fixed;
+	width:400px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+form{
+	text-align:center;
+}
+
+#text{
+	width:30%;
+	float:left;
+}
+
+#textfield{
+	width:70%;
+	float:right;
+}
+
+#textfield input{
+	border: 1px solid #8c8c8c;
+	margin:5px;
+}
+
+#text2{
+	width:40%;
+	float:left;
+}
+
+#text2 p{
+	padding:0;
+	margin:7px;
+}
+
+#textfield2{
+	width:60%;
+	float:right;
+	margin-top:5px;
+}
+
+#textfield2 input{
+	border: 1px solid #8c8c8c;
+	margin:5px;
+}
+
+#button{
+	width:100%;
+	clear:both;
+}
+#button input{
+	margin-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#text p{
+	margin:0;
+	padding:0;
+	margin:5px;
+}
+
+.errmsg{
+	margin-bottom:10px;
+}
