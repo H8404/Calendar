@@ -1,2 +1,2 @@
 # Calendar
-PHP-harkka
+PHP event calendar
