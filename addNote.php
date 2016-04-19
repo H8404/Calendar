@@ -45,7 +45,7 @@ if(isset($_GET['Save'])){
 		}
 	}
 	else{
-		echo '<script>document.getElementById("message").innerHTML = "Your date isnt valid!"</script>';
+		echo '<script>document.getElementById("message").innerHTML = "Your date is invalid!"</script>';
 	}
 }
 ?>
